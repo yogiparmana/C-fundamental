@@ -94,7 +94,7 @@ int tambah(int nilai_1, int nilai_2){ //nilai_1 dan nilai_2 yang bertipe int itu
     int hasil = nilai_1 + nilai_2; // proses menghitung nilai
     return hasil; // mengembalikan nilai hasil
 }
-// membuat void cout untuk menampilkan keterangan cout perjumlahannya
+// membuat void print untuk menampilkan keterangan print perjumlahannya
 
 void cetak_perjumlahan(int angka_1, int angka_2){
     printf("%d + %d = %d\n", angka_1, angka_2, tambah(angka_1,angka_2) );// mengambil fungsi di dalam fungsi
